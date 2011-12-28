@@ -1,0 +1,7 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: Ui
+Bundle-SymbolicName: com.weltevree.particle.ui
+Bundle-Version: 1.0.0.qualifier
+Bundle-Vendor: WELTEVREE
+Bundle-RequiredExecutionEnvironment: JavaSE-1.6
