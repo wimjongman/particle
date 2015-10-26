@@ -3,8 +3,7 @@ Bundle-ManifestVersion: 2
 Bundle-Name: Model
 Bundle-SymbolicName: com.weltevree.particle.model
 Bundle-Version: 1.0.0.qualifier
-Bundle-Activator: com.weltevree.particle.model.Activator
 Bundle-Vendor: WELTEVREE
-Bundle-RequiredExecutionEnvironment: JavaSE-1.6
+Bundle-RequiredExecutionEnvironment: JavaSE-1.8
 Bundle-ActivationPolicy: lazy
 Export-Package: com.weltevree.particle.model

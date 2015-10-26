@@ -1,10 +1,9 @@
 Manifest-Version: 1.0
 Bundle-ManifestVersion: 2
-Bundle-Name: Ui
-Bundle-SymbolicName: com.weltevree.particle.ui
+Bundle-Name: Product
+Bundle-SymbolicName: com.weltvree.particle.product;singleton:=true
 Bundle-Version: 1.0.0.qualifier
-Bundle-Vendor: WELTEVREE
-Bundle-RequiredExecutionEnvironment: JavaSE-1.8
+Bundle-Vendor: WELTVREE
 Require-Bundle: javax.inject;bundle-version="1.0.0",
  org.eclipse.core.runtime;bundle-version="3.11.1",
  org.eclipse.swt;bundle-version="3.104.1",
@@ -16,7 +15,8 @@ Require-Bundle: javax.inject;bundle-version="1.0.0",
  org.eclipse.e4.ui.di;bundle-version="1.1.0",
  org.eclipse.e4.core.contexts;bundle-version="1.4.0",
  com.weltevree.particle.ui;bundle-version="1.0.0",
- com.weltevree.particle.core,
- com.weltevree.particle.model
-Export-Package: com.weltvree.particle.ui.internal.parts
- 
+ com.weltevree.particle.model,
+ com.weltevree.particle.core
+Bundle-RequiredExecutionEnvironment: JavaSE-1.8
+Import-Package: javax.annotation;version="1.0.0";resolution:=optional,
+ javax.inject;version="1.0.0"

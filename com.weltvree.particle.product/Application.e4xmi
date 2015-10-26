@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<application:Application xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:advanced="http://www.eclipse.org/ui/2010/UIModel/application/ui/advanced" xmlns:application="http://www.eclipse.org/ui/2010/UIModel/application" xmlns:basic="http://www.eclipse.org/ui/2010/UIModel/application/ui/basic" xmlns:menu="http://www.eclipse.org/ui/2010/UIModel/application/ui/menu" xmi:id="_4kHS8HwKEeWUEqa48CceVA" elementId="org.eclipse.e4.ide.application" bindingContexts="_4kH6CHwKEeWUEqa48CceVA">
+  <children xsi:type="basic:TrimmedWindow" xmi:id="_4kH6AHwKEeWUEqa48CceVA" label="com.weltvree.particle.product" width="500" height="400">
+    <children xsi:type="advanced:PerspectiveStack" xmi:id="_4kIhF3wKEeWUEqa48CceVA">
+      <children xsi:type="advanced:Perspective" xmi:id="_4kIhGHwKEeWUEqa48CceVA">
+        <children xsi:type="basic:PartSashContainer" xmi:id="_4kIhGXwKEeWUEqa48CceVA" horizontal="true">
+          <children xsi:type="basic:Part" xmi:id="_4kIhG3wKEeWUEqa48CceVA" containerData="70" contributionURI="bundleclass://com.weltevree.particle.ui/com.weltvree.particle.ui.internal.parts.CanvasPart" label=""/>
+          <children xsi:type="basic:Part" xmi:id="_09KvgHwMEeWUEqa48CceVA" elementId="com.weltvree.particle.product.part.0" containerData="30" contributionURI="bundleclass://com.weltevree.particle.ui/com.weltvree.particle.ui.internal.parts.ControlPart"/>
+        </children>
+      </children>
+    </children>
+    <mainMenu xmi:id="_4kIhEHwKEeWUEqa48CceVA" elementId="menu:org.eclipse.ui.main.menu">
+      <children xsi:type="menu:Menu" xmi:id="_4kIhEXwKEeWUEqa48CceVA" label="File">
+        <children xsi:type="menu:HandledMenuItem" xmi:id="_4kIhEnwKEeWUEqa48CceVA" label="Open" iconURI="platform:/plugin/com.weltvree.particle.product/icons/sample.png" command="_4kH6D3wKEeWUEqa48CceVA"/>
+        <children xsi:type="menu:HandledMenuItem" xmi:id="_4kIhE3wKEeWUEqa48CceVA" label="Save" iconURI="platform:/plugin/com.weltvree.particle.product/icons/save_edit.png" command="_4kH6EnwKEeWUEqa48CceVA"/>
+        <children xsi:type="menu:HandledMenuItem" xmi:id="_4kIhFHwKEeWUEqa48CceVA" label="Quit" command="_4kH6C3wKEeWUEqa48CceVA"/>
+      </children>
+      <children xsi:type="menu:Menu" xmi:id="_4kIhFXwKEeWUEqa48CceVA" label="Help">
+        <children xsi:type="menu:HandledMenuItem" xmi:id="_4kIhFnwKEeWUEqa48CceVA" label="About" command="_4kH6FXwKEeWUEqa48CceVA"/>
+      </children>
+    </mainMenu>
+    <trimBars xmi:id="_4kIhHHwKEeWUEqa48CceVA">
+      <children xsi:type="menu:ToolBar" xmi:id="_4kIhHXwKEeWUEqa48CceVA" elementId="toolbar:org.eclipse.ui.main.toolbar">
+        <children xsi:type="menu:HandledToolItem" xmi:id="_4kIhHnwKEeWUEqa48CceVA" iconURI="platform:/plugin/com.weltvree.particle.product/icons/sample.png" command="_4kH6D3wKEeWUEqa48CceVA"/>
+        <children xsi:type="menu:HandledToolItem" xmi:id="_4kIhH3wKEeWUEqa48CceVA" iconURI="platform:/plugin/com.weltvree.particle.product/icons/save_edit.png" command="_4kH6EnwKEeWUEqa48CceVA"/>
+      </children>
+    </trimBars>
+  </children>
+  <handlers xmi:id="_4kH6DHwKEeWUEqa48CceVA" elementId="com.weltvree.particle.product.handler.quitCommand" contributionURI="bundleclass://com.weltvree.particle.product/com.weltvree.particle.product.handlers.QuitHandler" command="_4kH6C3wKEeWUEqa48CceVA"/>
+  <handlers xmi:id="_4kH6EHwKEeWUEqa48CceVA" elementId="com.weltvree.particle.product.handler.openCommand" contributionURI="bundleclass://com.weltvree.particle.product/com.weltvree.particle.product.handlers.OpenHandler" command="_4kH6D3wKEeWUEqa48CceVA"/>
+  <handlers xmi:id="_4kH6E3wKEeWUEqa48CceVA" elementId="com.weltvree.particle.product.handler.saveCommand" contributionURI="bundleclass://com.weltvree.particle.product/com.weltvree.particle.product.handlers.SaveHandler" command="_4kH6EnwKEeWUEqa48CceVA"/>
+  <handlers xmi:id="_4kH6FnwKEeWUEqa48CceVA" elementId="com.weltvree.particle.product.handler.aboutCommand" contributionURI="bundleclass://com.weltvree.particle.product/com.weltvree.particle.product.handlers.AboutHandler" command="_4kH6FXwKEeWUEqa48CceVA"/>
+  <bindingTables xmi:id="_4kH6DXwKEeWUEqa48CceVA" bindingContext="_4kH6CHwKEeWUEqa48CceVA">
+    <bindings xmi:id="_4kH6DnwKEeWUEqa48CceVA" keySequence="M1+Q" command="_4kH6C3wKEeWUEqa48CceVA"/>
+    <bindings xmi:id="_4kH6EXwKEeWUEqa48CceVA" keySequence="M1+O" command="_4kH6D3wKEeWUEqa48CceVA"/>
+    <bindings xmi:id="_4kH6FHwKEeWUEqa48CceVA" keySequence="M1+S" command="_4kH6EnwKEeWUEqa48CceVA"/>
+    <bindings xmi:id="_4kH6F3wKEeWUEqa48CceVA" keySequence="M1+A" command="_4kH6FXwKEeWUEqa48CceVA"/>
+  </bindingTables>
+  <rootContext xmi:id="_4kH6CHwKEeWUEqa48CceVA" elementId="org.eclipse.ui.contexts.dialogAndWindow" name="In Dialog and Windows">
+    <children xmi:id="_4kH6CXwKEeWUEqa48CceVA" elementId="org.eclipse.ui.contexts.window" name="In Windows"/>
+    <children xmi:id="_4kH6CnwKEeWUEqa48CceVA" elementId="org.eclipse.ui.contexts.dialog" name="In Dialogs"/>
+  </rootContext>
+  <commands xmi:id="_4kH6C3wKEeWUEqa48CceVA" elementId="org.eclipse.ui.file.exit" commandName="quitCommand"/>
+  <commands xmi:id="_4kH6D3wKEeWUEqa48CceVA" elementId="com.weltvree.particle.product.open" commandName="openCommand"/>
+  <commands xmi:id="_4kH6EnwKEeWUEqa48CceVA" elementId="org.eclipse.ui.file.save" commandName="saveCommand"/>
+  <commands xmi:id="_4kH6FXwKEeWUEqa48CceVA" elementId="org.eclipse.ui.help.aboutAction" commandName="aboutCommand"/>
+  <addons xmi:id="_4kH6AXwKEeWUEqa48CceVA" elementId="org.eclipse.e4.core.commands.service" contributionURI="bundleclass://org.eclipse.e4.core.commands/org.eclipse.e4.core.commands.CommandServiceAddon"/>
+  <addons xmi:id="_4kH6AnwKEeWUEqa48CceVA" elementId="org.eclipse.e4.ui.contexts.service" contributionURI="bundleclass://org.eclipse.e4.ui.services/org.eclipse.e4.ui.services.ContextServiceAddon"/>
+  <addons xmi:id="_4kH6A3wKEeWUEqa48CceVA" elementId="org.eclipse.e4.ui.bindings.service" contributionURI="bundleclass://org.eclipse.e4.ui.bindings/org.eclipse.e4.ui.bindings.BindingServiceAddon"/>
+  <addons xmi:id="_4kH6BHwKEeWUEqa48CceVA" elementId="org.eclipse.e4.ui.workbench.commands.model" contributionURI="bundleclass://org.eclipse.e4.ui.workbench/org.eclipse.e4.ui.internal.workbench.addons.CommandProcessingAddon"/>
+  <addons xmi:id="_4kH6BXwKEeWUEqa48CceVA" elementId="org.eclipse.e4.ui.workbench.handler.model" contributionURI="bundleclass://org.eclipse.e4.ui.workbench/org.eclipse.e4.ui.internal.workbench.addons.HandlerProcessingAddon"/>
+  <addons xmi:id="_4kH6BnwKEeWUEqa48CceVA" elementId="org.eclipse.e4.ui.workbench.contexts.model" contributionURI="bundleclass://org.eclipse.e4.ui.workbench/org.eclipse.e4.ui.internal.workbench.addons.ContextProcessingAddon"/>
+  <addons xmi:id="_4kH6B3wKEeWUEqa48CceVA" elementId="org.eclipse.e4.ui.workbench.bindings.model" contributionURI="bundleclass://org.eclipse.e4.ui.workbench.swt/org.eclipse.e4.ui.workbench.swt.util.BindingProcessingAddon"/>
+</application:Application>
